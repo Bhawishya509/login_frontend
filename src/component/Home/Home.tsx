@@ -23,7 +23,7 @@ const Home = () => {
           </section>
           <section className="home_box_paper_image_login_block">
             <div className="home_box_paper_image_block">
-              <img src={imgs} />
+              <img src={imgs} alt="" />
             </div>
              <Login/>
           </section>

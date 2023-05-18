@@ -80,3 +80,37 @@
   height: 90%;
   background-color: aqua;
 }
+
+/* media query */
+@media screen and (max-width: 480px) {
+    .main_block_home
+    {
+      height: 92.79vh;
+    }
+    .main_block_home_box
+{
+    height: 88%;
+    width: 96%;
+    background-color: #4a4a4a;
+    border-radius: 6px;
+}
+.home_box_paper
+{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
+}
+
+.home_box_paper_image_block
+{
+  display: none;
+    
+}
+
+.home_box_paper_image_block>img
+{
+    display: none;
+}
+
+  }
