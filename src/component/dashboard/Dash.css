@@ -1,0 +1,269 @@
+.dash_main
+{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+    flex-direction: column;
+}
+.dash_main_box
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.dash_main_container
+{
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.dash_grid_header
+{
+  
+  height: 18% !important;
+  width: 100% !important;
+
+  display: flex !important;
+ 
+}
+
+.dash_grid_header_item1
+{
+    height: 100%;
+    width: 99%;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.dash_grid_header_item1_section
+{
+    height: 100%;
+    width: 99%;
+    display: flex !important;
+    justify-content:space-between;
+    align-items: center;
+}
+.dash_grid_header_item1_section_icon_pic
+{
+    height: 80%;
+     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dash_grid_header_item1_section_icon
+{
+    font-size: 2rem;
+    color: black;
+}
+
+.dash_grid_header_item1_section_pic
+{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.dash_grid_header_item1_section_pic_icon
+{
+
+    color: #2FB164;
+    font-size: 2rem !important; 
+}
+
+
+.dash_grid_header_item1_section_heading
+{
+    font-size: 0.70rem;
+    font-weight: 700;
+}
+.dash_grid_header_item1_section_sechead
+{
+    font-size: 0.45rem;font-weight: 700;
+}
+
+.dash_grid_header_item1_section_icons_block
+{
+    height: 40%;
+    width: 10%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash_grid_header_item1_section_bell_icon
+{
+  font-size: 2rem !important;
+  color: #154F50;
+}
+
+.dash_section_block
+{
+    height: 77%;
+    display: flex;
+    margin-top: 1%;
+    overflow-y: auto;
+    background-color: #EBFFF7;
+}
+.dash_grid_left
+{
+    height: 100% !important;
+   
+    border-right: 0.5px solid #667799;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.dash_grid_header_item2
+{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.dash_grid_middle
+{
+    height: 100% !important;
+    
+ 
+ 
+}
+.dash_grid_header_item3
+{
+    height: 100%;
+   
+}
+.dash_grid_header_item2_pic_list_main_block
+{
+    height: 100%;
+    width: 100%;
+}
+.dash_grid_header_item2_pic_main_block_pic_name_block
+{
+    height: 35%;
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dash_grid_header_item2_pic_main_block_pic_block
+{
+    height: 60%;
+    width: 55%;
+    border-radius: 50%;
+    background-image: url("https://imgmedia.lbb.in/media/2019/10/5d9c4097a0087660bb628f4d_1570521239326.jpg");
+   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dash_grid_header_item2_pic_main_block_name_block
+{
+   color:#383838;
+}
+ /* after pic name block they will start */
+.dash_grid_header_item2_list_main_block
+{
+    height: 50%;
+    width: 85%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+
+
+.dash_grid_header_item2_list_main_block_item1,
+.dash_grid_header_item2_list_main_block_item2,
+.dash_grid_header_item2_list_main_block_item3,
+.dash_grid_header_item2_list_main_block_item4,
+.dash_grid_header_item2_list_main_block_item5,
+.dash_grid_header_item2_list_main_block_item6
+{
+    height: 13%;
+    width: 100%;
+    background-color: #005642;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 600;
+    
+
+}
+
+
+
+
+
+
+
+
+.dash_grid_header_item2_list_main_block_item1
+{
+
+}
+.dash_grid_header_item2_list_main_block_item2
+{
+    
+}
+.dash_grid_header_item2_list_main_block_item3
+{
+    
+}
+.dash_grid_header_item2_list_main_block_item4
+{
+    
+}
+.dash_grid_header_item2_list_main_block_item5
+{
+    
+}
+.dash_grid_header_item2_list_main_block_item6
+{
+    
+}
+
+.dash_grid_header_item3_heading_main_block
+{
+  width: 100%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+}
+ .divi1
+{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005642;
+  color: white;
+  font-weight: 600;
+}
+.divi2
+{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #abc3be;
+  color: white;
+  font-weight: 600;
+}

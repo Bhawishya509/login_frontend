@@ -1,0 +1,80 @@
+.login_box_main_block
+{
+    width: 60%;
+  height: 90%;
+}
+.MuiFormControl-root
+{
+    width: 90% !important;
+    /* background-color: rgb(128, 236, 128) !important; */
+    box-sizing: border-box;
+    margin: 5px !important;
+   font-size: larger !important;
+  
+}
+.css-1nrlq1o-MuiFormControl-root
+{
+    margin: 15px;
+}
+
+.pincode_city
+{
+    width: 92%;
+    display: flex;
+    justify-content: space-around;
+}
+.icon_account
+{
+    color:  #216D58;
+}
+.icon_email
+{
+ color:  #216D58;
+}
+.icon_linkdin
+{
+    color:  #216D58;
+    font-size: 1.4rem;
+}
+.icon_flag
+{
+  color: #216D58;
+}
+.icon_mobile
+{
+    color:  #216D58;
+}
+.icon_loction
+{
+    color:  #216D58;
+}
+.term_main_block
+{
+    width: 94%;
+    display: flex;
+}
+.term_main_block_div
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.terms_text
+{
+    font-size: 0.6rem;
+    color:#216D58;
+  
+}
+.btnclass
+{
+    width: 92%;
+    display:flex ;
+    justify-content: flex-end;
+}
+.btnclass_btn
+{
+    background-color: #216D58 !important;
+    font-weight: 600 !important;
+}

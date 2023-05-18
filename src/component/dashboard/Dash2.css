@@ -1,0 +1,16 @@
+.dash2_main_block
+{
+    height: 100% ;
+    margin-top: 6%;
+    
+}
+.dash2_top_border
+{
+    height: 2%;
+    border-bottom: 0.5px solid rgb(112, 101, 101);
+}
+.dash2_top_box
+{
+    box-sizing: border-box;
+    margin-top: 2%;
+}
