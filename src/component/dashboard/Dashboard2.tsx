@@ -27,25 +27,25 @@ const Dashboard2 = ({datas}:{datas:any}) => {
         <div className="dash2_top_border"></div>
         <Box sx={{ flexGrow: 1 }} className="dash2_top_box">
           <Grid container spacing={2}>
-            <Grid item xs={4}>
+            <Grid item xs={4} className="one">
               <Item>{datas.name}</Item>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={8} className="two">
               <Item>{datas.email}</Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4}  className="three">
               <Item>{datas.phone}</Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4}  className="four">
               <Item>{datas.country}</Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4}  className="five">
               <Item>{datas.state}</Item>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={6}  className="six">
               <Item>{datas.city}</Item>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4}  className="seven">
               <Item>{datas.pincode}</Item>
             </Grid>
           </Grid>
